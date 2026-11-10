@@ -150,3 +150,27 @@
 [data-type="button"]:hover{
     opacity: 1;
 }
+.BlackNovember_description{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+.BlackNovember_description p{
+    width: 400px;
+}
+.BlackNovember_description p:nth-child(2){
+    border-left: solid 2px #fff;
+    border-right: solid 2px #fff;
+    margin: 0 8px;
+}
+
+.BlackNovember{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.image{
+    position: relative;
+}
+
