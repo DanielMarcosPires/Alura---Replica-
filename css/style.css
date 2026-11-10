@@ -90,7 +90,7 @@
     position: relative;
     text-align: start;
     padding: 8em 0;
-    width: 65%;
+    width: 70%;
 }
 .empregabilidade img{
    width: 800px;
@@ -102,11 +102,11 @@
 .description{
     height: 100%;
     width: 550px;
-    font-size: 36px;
+    font-size: 32px;
 }
 .description .title{
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 500;
     padding: 8px 0;
 }
 .description .text{
@@ -118,7 +118,7 @@
     opacity: .7;
 }
 .description ul {
-   font-size: 16px;
+   font-size: calc(.5em);
 }
 .text::before{
     content: '>';
