@@ -17,10 +17,13 @@
     background: #dedfe3;
     padding: 1em 1em;
     border-radius: 50px;
+    font-size: 18px;
+    width: max-content;
 }
 
 .header_nav a {
     border-bottom: solid 1px transparent;
+    font-size: 1em;
 }
 .header_nav a:hover {
     border-bottom: solid 1px;
@@ -44,14 +47,15 @@
     justify-content: space-between;
     background: #052fd3;
     border-radius: 50px;
-    width: min-content;
+    font-size: 16px;
+
     height: 50px;
     width: 152px;
 }
 
 .plans_button p {
     flex: 1;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .plans_button svg {
@@ -67,31 +71,82 @@
 .carousel_box{
     width: 100%;
     height: calc(100vh/1.2);
-    border: solid 1px #fff;
     overflow: hidden;
 }
 .carousel_carretel{
     display: flex;
-    border: solid 1px #fff;
     width: 100%;
 }
 .carousel_carretel li{
-    border: solid 1px #fff;
     flex: 0 0 calc(100%/1);
 }
 
 .empregabilidade{
     display: flex;
-    background: #dedfe3;
+    background: #eeeff1;
     justify-content: center;
 }
-.empregabilidade div{
-    flex: 1;
+.empregabilidade .empregabilidade_margin{
+    position: relative;
+    text-align: start;
+    padding: 8em 0;
+    width: 65%;
 }
 .empregabilidade img{
    width: 800px;
    object-fit: cover;
+   position: absolute;
+   top: -200px;
+   right: 0;
 }
+.description{
+    height: 100%;
+    width: 550px;
+    font-size: 36px;
+}
+.description .title{
+    font-size: 1em;
+    font-weight: 400;
+    padding: 8px 0;
+}
+.description .text{
+    position: relative;
+    left: 1em;
+    font-size: 1.5em;
+    font-weight: 450;
+    padding: 4px 0;
+    opacity: .7;
+}
+.description ul {
+   font-size: 16px;
+}
+.text::before{
+    content: '>';
+    border: solid 1px #000;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+}
+.spanDescription{
+    padding: 10px 0 5em 0;
+    font-size: .5em;
+}
+
 [data_type="text"]{
     color: #000;
+}
+
+[data-type="button"]{
+    background: #052fd3;
+    border-radius: 4px;
+    padding: 8px 1em;
+    font-size: 25px;
+    opacity: .8;
+}
+[data-type="button"]:hover{
+    opacity: 1;
 }
