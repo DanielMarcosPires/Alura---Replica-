@@ -21,7 +21,7 @@ function autoScroll() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    setInterval(()=>{
-        autoScroll()
-    }, 5000);
+    // setInterval(()=>{
+    //     autoScroll()
+    // }, 5000);
 });

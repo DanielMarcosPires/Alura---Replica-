@@ -39,13 +39,15 @@
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </button>
-                <button>
-                    <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="size-[1.125rem]">
-                        <path
-                            d="M21.6667 22.75C21.6667 19.7585 17.7865 17.3333 13 17.3333C8.21357 17.3333 4.33337 19.7585 4.33337 22.75M13 14.0833C10.0085 14.0833 7.58337 11.6582 7.58337 8.66667C7.58337 5.67512 10.0085 3.25 13 3.25C15.9916 3.25 18.4167 5.67512 18.4167 8.66667C18.4167 11.6582 15.9916 14.0833 13 14.0833Z"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>
-                </button>
+                <a href="https://cursos.alura.com.br/app/login">
+                    <button>
+                        <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="size-[1.125rem]">
+                            <path
+                                d="M21.6667 22.75C21.6667 19.7585 17.7865 17.3333 13 17.3333C8.21357 17.3333 4.33337 19.7585 4.33337 22.75M13 14.0833C10.0085 14.0833 7.58337 11.6582 7.58337 8.66667C7.58337 5.67512 10.0085 3.25 13 3.25C15.9916 3.25 18.4167 5.67512 18.4167 8.66667C18.4167 11.6582 15.9916 14.0833 13 14.0833Z"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </a>
                 <button class="plans_button">
                     <p>Ver Planos</p>
                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -58,7 +60,7 @@
         </div>
     </header>
     <main>
-        <section class="carousel_box">
+        <section data-time="5000" class="carousel_box">
             <ul class="carousel_carretel">
                 <li class="empregabilidade">
                     <div class="empregabilidade_margin">
@@ -96,12 +98,16 @@
                         <img src="img/banners/Captura de tela 2026-11-10 112551.png" alt="BlackNovember">
                     </div>
                     <ul class="BlackNovember_description">
-                        <p data-type="text">O maior desconto do ano e bonus exclusivos para acelerar sua carreira no ritmo do mercado tech.</p>
+                        <p data-type="text">O maior desconto do ano e bonus exclusivos para acelerar sua carreira no
+                            ritmo do mercado tech.</p>
                         <p data-type="text">Comece hoje e concorra o PS5</p>
-                        <a data-type="button" href="#">Matricule-se e aproveite.</a>
+                        <a data-type="button-secondary" href="#">Matricule-se e aproveite.</a>
                     </ul>
                 </li>
             </ul>
+        </section>
+        <section>
+            <h2>Nossos alunos e alunas estão nas maiores empresas de tecnologia.</h2>
         </section>
     </main>
     <script src="./js/script.js"></script>
