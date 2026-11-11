@@ -1,24 +1,34 @@
-.BlackNovember_description{
+.BlackNovember_description {
     display: flex;
     align-items: center;
     font-size: 20px;
 }
-.BlackNovember_description p{
+
+.BlackNovember_description p {
     width: 400px;
 }
-.BlackNovember_description p:nth-child(2){
+
+.BlackNovember_description p:nth-child(2) {
     border-left: solid 2px #fff;
     border-right: solid 2px #fff;
     margin: 0 8px;
 }
 
-.BlackNovember{
+.BlackNovember {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
 }
-.BlackNovember img{
+
+.BlackNovember img {
     position: relative;
-    width: 80%;
+    width: 100%;
+}
+
+@media screen and (max-width:1400px) {
+    .BlackNovember img {
+        position: relative;
+        width: 80%;
+    }
 }
