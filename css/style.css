@@ -88,16 +88,18 @@
 }
 .empregabilidade_margin{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2em;
     position: relative;
     text-align: start;
     width: 100%;
 }
 .empregabilidade img{
-   width: 40%;
+   width: 600px;
+   height: 100%;
    object-fit: cover;
+   object-position: 0 0;
    position: relative;
-   top: 60px;
 }
 .description{
     display: flex;
