@@ -1,8 +1,5 @@
 const carousel_box = document.querySelectorAll("#carousel");
 
-
-
-
 function autoScroll(carousel) {
         const widthPage = carousel.clientWidth;
         const currentPosition = carousel.scrollLeft + widthPage;
