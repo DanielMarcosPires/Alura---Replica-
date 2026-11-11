@@ -1,27 +1,33 @@
-const carousel_box = document.querySelector(".carousel_box");
+const carousel_box = document.querySelectorAll("#carousel");
 
-function autoScroll() {
-    const widthPage = carousel_box.clientWidth;
-    const currentPosition = carousel_box.scrollLeft + widthPage;
 
-    if (currentPosition >= carousel_box.scrollWidth){
-        carousel_box.scrollTo({
-            left:0,
-            behavior:"smooth"
-        });
-        return;
-    }
 
-    console.log(widthPage)
 
-    carousel_box.scrollTo({
-        left: widthPage,
-        behavior:"smooth"
-    })
+function autoScroll(carousel) {
+        const widthPage = carousel.clientWidth;
+        const currentPosition = carousel.scrollLeft + widthPage;
+
+        if (currentPosition >= carousel.scrollWidth) {
+            carousel.scrollTo({
+                left: 0,
+                behavior: "smooth"
+            });
+            return;
+        }
+
+        console.log(widthPage)
+
+        carousel.scrollTo({
+            left: widthPage,
+            behavior: "smooth"
+        })
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    setInterval(()=>{
-        autoScroll()
-    }, 5000);
+    carousel_box.forEach((carousel) => {
+        time = carousel.getAttribute('data-time')
+        setInterval(() => {
+            autoScroll(carousel)
+        }, time)
+    })
 });

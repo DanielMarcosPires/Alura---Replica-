@@ -1,12 +1,37 @@
-.carousel_box{
+.carousel_hero{
     width: 100%;
     height: calc(100vh/1.2);
     overflow: hidden;
 }
-.carousel_carretel{
+.carousel_hero-carretel{
     display: flex;
     width: 100%;
 }
-.carousel_carretel li{
+.carousel_hero-carretel li{
     flex: 0 0 calc(100%/1);
+}
+
+.carousel_interprises{
+    border: solid 2px #fff;
+    border-radius: 10px;
+    padding: 8px 0;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    width: 80%;
+    height: min-content;
+}
+.carousel_interprises--carretel{
+    display: flex;
+    height: min-content;
+    padding: 8px 0;
+}
+
+.carousel_interprises--carretel > div{
+    flex: 0 0 calc(100%/5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
