@@ -9,7 +9,7 @@
 
 .margin {
     gap: 1em;
-    width: 70%;
+    width: 90%;
 }
 
 .header_nav {
@@ -88,14 +88,16 @@
 }
 .empregabilidade_margin{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     position: relative;
     text-align: start;
     width: 100%;
 }
 .empregabilidade img{
-   width: 750px;
+   width: 40%;
    object-fit: cover;
+   position: relative;
+   top: 60px;
 }
 .description{
     display: flex;
