@@ -1,0 +1,12 @@
+.carousel_box{
+    width: 100%;
+    height: calc(100vh/1.2);
+    overflow: hidden;
+}
+.carousel_carretel{
+    display: flex;
+    width: 100%;
+}
+.carousel_carretel li{
+    flex: 0 0 calc(100%/1);
+}

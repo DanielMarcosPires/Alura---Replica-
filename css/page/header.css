@@ -1,0 +1,75 @@
+.header {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    width: 100%;
+    padding: .2em 0;
+}
+
+.margin {
+    gap: 1em;
+    width: 70%;
+}
+
+.header_nav {
+    justify-content: space-around;
+    background: #dedfe3;
+    padding: 1em 1em;
+    border-radius: 50px;
+    font-size: 18px;
+    width: max-content;
+}
+
+.header_nav a {
+    border-bottom: solid 1px transparent;
+    font-size: 1em;
+}
+.header_nav a:hover {
+    border-bottom: solid 1px;
+}
+.header_nav-control {
+    padding: .4em 1em;
+    border-radius: 10px;
+    flex: 0;
+    gap: 10px;
+}
+
+.menu_button {
+    background: #dedfe3;
+}
+
+.menu_button>svg {
+    stroke: #000;
+}
+
+.plans_button {
+    justify-content: space-between;
+    background: #052fd3;
+    border-radius: 50px;
+    font-size: 16px;
+
+    height: 50px;
+    width: 152px;
+}
+
+.plans_button p {
+    flex: 1;
+    font-size: 1em;
+}
+
+.plans_button svg {
+    background: #000;
+    border-radius: 50px;
+    width: 35px;
+}
+
+.header_nav>a {
+    color: #000;
+}
+
+@media screen and (max-width:1400px) {
+    .margin{
+        width: 90%;
+    }
+}
